@@ -11,8 +11,8 @@ import PySimpleGUI as sg
 
 
 #Authorization for Spotify API
-cid= '94a98c9f1fb549f8bbb375fde0e347be'
-secret= '1f245c1e6a65416684928f7bffbdfff0'
+cid= ''
+secret= ''
 
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
